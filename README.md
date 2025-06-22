@@ -52,3 +52,10 @@ Authentication ensures that only registered and verified users can access protec
 Rate Limiting is used to protect the APIs from abuse and brute-force attacks by restricting the number of requests a user or IP address can make within a specific timeframe. This helps maintain performance and prevents denial-of-service attempts.
 
 Security is especially critical when handling user data, such as email addresses and passwords, which must be encrypted and stored securely. It also plays a vital role in payment processing, where financial transactions must be protected from interception, tampering, or fraud using HTTPS, tokenization, and secure payment gateways. Additionally, protecting access to booking information and property details prevents data leaks and maintains trust between users and the platform.
+
+# CI/CD Pipeline
+CI/CD (Continuous Integration and Continuous Deployment) pipelines automate the process of testing, building, and deploying applications. In the context of the Airbnb Clone Project, CI/CD ensures that every change to the codebase is automatically tested and deployed, reducing manual errors, speeding up development, and maintaining high code quality.
+
+By using tools like GitHub Actions, we can automatically run test suites and linting on every pull request or commit. This helps catch bugs early and ensures that only well-tested code is merged into the main branch. Docker is used to create consistent and portable environments across development, staging, and production, allowing seamless deployment across platforms.
+
+CI/CD pipelines are essential for maintaining agility and reliability in a growing codebase. They reduce downtime, improve developer efficiency, and support continuous delivery of new features and updates with confidence.
