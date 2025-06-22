@@ -43,3 +43,12 @@ Payment Integration feature handles the financial transactions associated with b
 
 Admin Panel (optional or future enhancement) may allow system administrators to monitor activity, manage users, and handle disputes. It adds a layer of control and moderation to maintain platform integrity.
 
+
+# API Security
+Security is a fundamental aspect of the Airbnb Clone Project, ensuring that sensitive data and transactions are protected throughout the application. Several key security measures will be implemented to safeguard backend APIs.
+
+Authentication ensures that only registered and verified users can access protected endpoints. This helps protect user accounts and prevents unauthorized access to personal data and private actions such as booking or listing a property. Authorization further controls what authenticated users are allowed to do, ensuring that guests and hosts only perform actions permitted by their roles. For instance, a guest should not be able to delete another user's property listing.
+
+Rate Limiting is used to protect the APIs from abuse and brute-force attacks by restricting the number of requests a user or IP address can make within a specific timeframe. This helps maintain performance and prevents denial-of-service attempts.
+
+Security is especially critical when handling user data, such as email addresses and passwords, which must be encrypted and stored securely. It also plays a vital role in payment processing, where financial transactions must be protected from interception, tampering, or fraud using HTTPS, tokenization, and secure payment gateways. Additionally, protecting access to booking information and property details prevents data leaks and maintains trust between users and the platform.
