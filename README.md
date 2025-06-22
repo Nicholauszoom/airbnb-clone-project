@@ -2,6 +2,7 @@
 The Airbnb Clone Project is a full-stack web application inspired by the popular booking platform, Airbnb. This project is designed to simulate the development of a real-world, scalable web app with complex features such as user authentication, property listing, booking management, secure payment handling, and interactive UI/UX.
 Through this project, learners gain hands-on experience in backend systems, database schema design, RESTful API development, authentication/authorization, and secure application deployment. It also emphasizes real-world software engineering practices such as team collaboration, version control, and modular design.
 
+# Team Roles
 # Backend Developer
 Responsibilities:
 
