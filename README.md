@@ -53,7 +53,7 @@ Django
 
  - Purpose: A high-level Python web framework used to build the backend of the application. It enables rapid development of secure and maintainable RESTful APIs and integrates seamlessly with databases and authentication systems.
 
-MySQL
+PostgreSQL
 
  - Purpose: A relational database management system used to store structured data such as users, properties, bookings, and transactions. It works well with Django through Django’s ORM (Object-Relational Mapping).
 
