@@ -30,3 +30,16 @@ GraphQL
 
 The database for the Airbnb Clone Project is structured to manage users, properties, bookings, reviews, and payments efficiently. The Users table stores details such as the user’s name, email, password, and role (host or guest). Each user can list multiple properties and make multiple bookings. The Properties table contains information about each listing, including the title, description, location, and a reference to the host (user). Each property can have multiple bookings and receive reviews from guests. The Bookings table captures data about reservations, such as check-in and check-out dates, and links to both the guest (user) and the property. The Reviews table allows users to leave ratings and comments for properties they have booked, linking each review to both a user and a property. Lastly, the Payments table records payment transactions for bookings, including the amount, payment date, and status, with each payment associated with a specific booking. These entities are relationally connected to reflect real-world interactions between users and the booking platform.
 
+# Feature Breakdown
+User Management feature handles user registration, login, and authentication. It ensures that hosts and guests can securely access their accounts and use the platform according to their roles. This feature also includes user profile management and role-based access control.
+
+Property Management feature allows hosts to list, update, and manage properties. It includes functionality for adding descriptions, pricing, availability dates, and images. This enables guests to browse and search for listings based on their preferences.
+
+Booking System is central to the application, allowing guests to reserve properties for specific dates. It manages availability, prevents double bookings, and ensures that only valid transactions are processed. Bookings are linked to both users and properties for full traceability.
+
+Review & Rating System lets guests leave feedback and rate their stays after completing a booking. This feature helps future guests make informed decisions and encourages property owners to maintain high standards.
+
+Payment Integration feature handles the financial transactions associated with bookings. It securely processes payments and updates booking statuses accordingly. This ensures a smooth and trustworthy transaction flow between guests and hosts.
+
+Admin Panel (optional or future enhancement) may allow system administrators to monitor activity, manage users, and handle disputes. It adds a layer of control and moderation to maintain platform integrity.
+
