@@ -54,7 +54,7 @@ To define and illustrate the key functionalities of the Airbnb platform by mappi
 
 ---
 
-## 📷 Diagram Preview
+## Diagram Preview
 
 > *(Insert your diagram image here or link to it if hosted)*
 
